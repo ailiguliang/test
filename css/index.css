@@ -1,0 +1,383 @@
+@charset "utf-8";
+
+
+body{
+    height:100%;
+    width:100%;
+}
+.banner_con,.picShow,.sec_article_con,.caseShow,.likeCon,.footerCon{
+    width:1130px;
+    margin:0 auto;
+}
+/* topWrap */
+    #header{
+        height:56px;
+        width:100%;
+        background:#ffe300;
+        font-size:12px;
+        color:#282828;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .header_cen li{
+        float:left;
+        margin:0 24px;
+    }
+    .header_rgh{
+        width:259px;
+        line-height:56px;
+    }
+    .header_rgh li{
+        float:left;
+        height:56px;
+        position: relative;
+        width:48px;
+        text-align:center;
+    }
+    .header_rgh li a {
+        width:48px;
+        display:block;
+        position: absolute;;
+        top:22px;
+        line-height:12px;
+    }
+    .header_rgh li:nth-of-type(3) a{
+        border-right:1px solid #444;
+    }
+
+
+/* banner */
+.banner_con{
+    height:286px;
+    position: relative;
+    margin:20px auto;
+    overflow: hidden;
+}
+.banner_con span{
+    display: block;
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    background: #999;
+    font-size: 40px;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    top:118px;
+    color:#fff;
+    cursor: pointer;
+}
+.banner_con span:nth-of-type(1){
+    left:10px;
+}
+.banner_con span:nth-of-type(2){
+    right:10px;
+}
+.banner_con .imgBox{
+    height:286px;
+    position: absolute;
+    left:0;
+}
+.banner_con img{
+    height:286px;
+    width:1130px;
+    float:left;
+    
+}
+
+/* picShow */
+.picShow{
+    height:168px;
+    margin-bottom:39px;
+    
+}
+.picShow img{
+    float:left;
+    height:168px;
+    width:210px;
+}
+.picShow img:nth-child(2){
+    margin:0 20px;
+}
+.picShow img:nth-child(4){
+    margin:0 20px;
+}
+
+/* section */
+.sec_con{
+    height:65px;
+    width:100%;
+    text-align: center;
+    line-height:65px;
+    display: flex;
+    justify-content:center;
+    background: #fff;
+}
+.sec_con .nav{
+    height:65px;
+    width:500px;
+    display: flex;
+}
+.sec_con h3{
+   width:64px;
+    /* float:left; */
+    color:#999;
+}
+.sec_con h3:nth-child(2){
+    margin:0 65px;
+}
+.sec_con h3:nth-child(1){
+    color:#444;
+    /* margin-left:469px; */
+    border-bottom:2px solid #444;
+}
+.sce_article{
+    background:#f4f4f4;
+    border-top:1px solid #eee;
+}
+.sec_article_con{
+    display: flex; 
+    flex-wrap:wrap;
+    justify-content: space-between; 
+}
+.sec_article_con .module{
+    height:308px;
+    width:210px;
+    background:#fff;
+    /* float:left; */
+    margin:20px 0;
+}
+.sec_article_con .module img{
+    height:158px;
+    width:100%;
+}
+.sec_article_con .module div{
+    height:50px;
+    border-top:1px solid #eee;
+    padding:0 16px;
+    line-height:50px;
+}
+.sec_article_con .module div p{
+    float:left;
+}
+.sec_article_con .module div p a{
+    font-size:12px;
+    color:#333;
+    float:left;
+}
+.sec_article_con .module div p img{
+    height:24px;
+    display:block;
+    float:left;
+    border-radius: 12px;
+    width:24px;
+    margin:14px 10px 0 0;
+
+}
+.sec_article_con .module div .btm{
+    float:right;
+    font-size:12px;
+    color:#bbb;
+}
+.sec_article_con .module h4{
+    line-height:14px;
+    height:14px;
+    width:177px;
+    padding:0 16px 0 17px ;
+    margin:16px 0 9px 0;
+}
+.sec_article_con .module h4 a{
+    font-size:14px;
+    color:#333;
+    width:146px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float:left;
+}
+.sec_article_con .module h4 i{
+    float:right;
+    font-size:14px!important;
+    color:#bbb;
+}
+.sec_article_con .module h5{
+    font-size:12px;
+    color:#bbb;
+    line-height:12px;
+    padding-left:17px ;
+}
+.sec_article_con .module ul{
+    margin:20px 0;
+    height:12px;
+    padding-left:17px ;
+}
+.sec_article_con .module ul li{
+    float:left;
+    margin-right:16px;
+    color:#d5d5d5;
+}
+.sec_article_con .module ul li a{
+    font-size:12px;
+}
+.sec_article_con .module ul li i{
+    font-size:12px!important;
+    margin-right:5px;
+}
+
+
+/* number */
+#num{
+    width:100%;
+    height:100px;
+    background:#f4f4f4;
+}
+.number{
+    width:969px;
+    margin:0 auto;
+    height:40px;
+    padding:40px 0 30px 411px;
+   
+}
+.number li{
+    float:left;
+    height:38px;
+    width:38px;
+    background: #fff;
+    border:1px solid #e9e9e9;
+    margin:0 6px;
+    text-align: center;
+    line-height:38px; 
+    color:#999;
+    font-size:12px;
+}
+.number .two{
+    background:#ffe300;
+    border:0;
+}
+
+/* case */
+#case{
+    
+    width:100%;
+    background: #f4f4f4;
+}
+.caseShow{
+    height:100px;
+
+}
+.caseShow img{
+    height:100%;
+    width:100%;
+}
+
+/* like */
+#like{
+    width:100%;
+    background: #f4f4f4;
+    position: relative;
+}
+#like .toTop{
+    display: block;
+    height:50px;
+    width:50px;
+    background:#333;
+    text-align: center;
+    line-height: 55px;
+    font-size: 12px;
+    font-weight: 900;
+    color:#fff;
+    position: absolute;
+    right:15px;
+    bottom:10px;
+}
+.likeCon{
+    height:257px;
+    padding-top:22px;
+}
+.likeCon h2{
+    font-size:12px;
+    color:#666;
+    line-height:12px;
+   margin-bottom: 20px;
+}
+.likeCon ul{
+    width:210px;
+    height:203px;
+    float:left;
+    margin-right:20px;
+    background:#fff;
+}
+.likeCon ul img{
+    height:158px;
+    width:100%;
+}
+.likeCon .lastImg{
+    margin-right:0;
+}
+.likeCon ul li{
+    height:12px;
+    width:200px;
+    padding:17px 44px 16px 16px;
+}
+.likeCon ul li a{
+    display: block;
+    color:#282828;
+    font-size:12px;
+    height:12px;
+    line-height:12px;
+    width:200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* footer */
+#footer{
+    background:#282828;
+}
+.footerCon{
+    height:146px;
+    padding:54px 0 29px 0;
+}
+.footerCon section{
+    line-height:18px;
+    margin-bottom:53px;
+}
+.footerCon p {
+    float:left;
+    font-size:12px;
+    color:#666;
+    margin-right:42px;
+    
+}
+.icon{
+    float:right;
+    width:90px;
+    font-size:18px!important;
+    color:#666;
+}
+.icoFirst i{
+    margin-right:10px;
+}
+.footerCon ul{
+    height:16px;
+    font-size:12px;
+    color:#666;
+    width:100%;
+}
+.footerCon .uTop{
+    border-top:1px solid #333;
+    padding-top:23px;
+    margin-bottom:18px;
+}
+.footerCon ul li{
+    float:left;
+}
+.footerCon ul li a{
+    margin:0 30px 0 30px;
+}
+.footerCon ul p{
+    float:right;
+}
